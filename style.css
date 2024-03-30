@@ -1,0 +1,139 @@
+body {
+    width: 1440px;
+    height: 819.574px;
+    flex-shrink: 0;
+    background: url(stars.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: #000; /* This will set the background color to black */
+}
+.eclipse {
+    width: 816px;
+    height: 816px;
+    position: absolute;
+    top: -408px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: linear-gradient(180deg, #0E7BF8 0%, rgba(14, 123, 248, 0.00) 86.35%);
+    filter: blur(200px);
+}
+#myText {
+    width: 249px;
+    height: 108px;
+    position: absolute;
+    top: 215px;
+    left: 67px;
+    color: #FFF;
+    font-family: 'Onest', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 61.2px;
+    text-align: left;
+}
+#myText2 {
+    width: 402px;
+    height: 61px;
+    position: absolute;
+    top: 378px;
+    left: 67px;
+    color: #0A7CFF;
+    font-family: 'Onest', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 61.2px;
+    text-align: left;
+}
+#myText4, #myText5 {
+    width: 691px;
+    height: 293px;
+    position: absolute;
+    left: 62px;
+    color: #FFF;
+    font-family: 'Onest', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25.5px;
+    text-align: left;
+}
+
+#myText4 {
+    top: 456px;
+}
+
+#myText5 {
+    top: 600px; /* Adjust this value as needed to create the desired amount of separation */
+}
+#myButton {
+    display: inline-flex;
+    max-width: 346.44px;
+    padding: 16px 28px 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    border-radius: 48px;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, rgba(255, 255, 255, 0.12) 0%, rgba(0, 0, 0, 0.00) 100%), #0A7CFF;
+    box-shadow: 1px 1px 2px 0px rgba(255, 255, 255, 0.24) inset, 0px 1px 3px 0px rgba(10, 124, 255, 0.24), 0px 2px 6px 0px rgba(10, 124, 255, 0.24), 0px 4px 8px 0px rgba(10, 124, 255, 0.12), 0px 16px 32px -8px rgba(10, 124, 255, 0.48);
+    width: 188.5px;
+    height: 56px;
+    position: absolute;
+    top: 721px;
+    left: 62px;
+}
+
+#myButton img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+#myButton span {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 133.333% */
+}
+#myElement {
+    width: 1870px;
+    height: 254px;
+    flex-shrink: 0;
+    background: #1E202E;
+    position: absolute;
+    top: 1000px;
+    left: 0; /* This will align the element to the left edge of its containing element */
+}
+
+#myText6 {
+    color: #FFF;
+    font-family: 'Onest', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    top: 20px; /* Adjust this value as needed to position the text at the top of the box */
+    left: 20px; /* Adjust this value as needed to position the text at the left of the box */
+    width: 162px;
+    height: 31px;
+    opacity: 1; /* This will make the text visible. If you want it to be invisible, set this to 0 */
+}
+#mySvg {
+    width: 139px;
+    height: 40px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 100px; /* Adjust this value as needed to position the SVG under the text */
+    left: 20px; /* Adjust this value as needed to position the SVG at the left of the box */
+}
+
+
+
+
