@@ -235,7 +235,7 @@ body {
     width: 100%;
     height: 100%;
     border-radius: 400px;
-    object-fit: cover; /* This will make sure your image covers the whole area of the div */
+    object-fit: cover;
 }
 .bottom-section {
     width: 1870px;
@@ -243,7 +243,7 @@ body {
     flex-shrink: 0;
     background: #1E202E;
     position: absolute;
-    top: 2100px; /* Adjust this value based on where you want the section to appear */
+    top: 2100px;
     left: 0;
 }
 .skills {
@@ -259,11 +259,11 @@ body {
     font-size: 96px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 25% */
+    line-height: 24px;
     position: absolute;
-    top: 2300px; /* Adjust this value based on where you want the section to appear */
-    left: 50%; /* Center the element horizontally */
-    transform: translateX(-50%); /* Shift the element left by half its width */
+    top: 2300px;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 1;
 }
 
@@ -274,7 +274,7 @@ body {
     border-radius: 30px;
     background: #1E1E1E;
     position: absolute;
-    top: 2500px; /* Adjust this value based on where you want the box to appear */
+    top: 2500px;
     right: 1300px;
 }
 .skills-box img {
@@ -282,22 +282,22 @@ body {
     height: 62px;
     flex-shrink: 0;
     position: absolute;
-    top: 50px; /* Adjust this value based on where you want the SVG to appear */
+    top: 50px;
     left: 50%;
-    transform: translateX(-50%); /* Center the SVG horizontally */
+    transform: translateX(-50%);
 }
 .skills-title {
     color: #FFF;
-    text-align: left; /* Align the text to the left */
+    text-align: left;
     font-family: Onest;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 100% */
+    line-height: 24px;
     position: absolute;
-    top: 130px; /* Adjust this value based on where you want the text to appear */
-    left: 35px; /* Adjust this value to align the text to the left */
-    width: 100%; /* Allow the text to expand to the full width of its container */
+    top: 130px;
+    left: 35px;
+    width: 100%;
 }
 
 .creativity-text {
@@ -312,11 +312,11 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 160px; /* Adjust this value based on where you want the text to appear */
-    left: 35px; /* Adjust this value to align the text to the left */
-    text-align: left; /* Align the text to the left */
+    top: 160px;
+    left: 35px;
+    text-align: left;
 }
 .html-text {
     color: #0A7CFF;
@@ -325,11 +325,11 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 240px; /* Adjust this value based on where you want the text to appear */
+    top: 240px;
     left: 50px;
-    transform: translateX(-50%); /* Center the text horizontally */
+    transform: translateX(-50%);
 }
 .html-beam {
     width: 132px;
@@ -338,8 +338,8 @@ body {
     border-radius: 42px;
     background: #0A7CFF;
     position: absolute;
-    top: 245px; /* Adjust this value based on where you want the beam to appear */
-    left: 100px; /* Adjust this value to position the beam to the right of the "HTML" text */
+    top: 245px;
+    left: 100px;
 }
 .html-percent {
     color: #0A7CFF;
@@ -348,10 +348,10 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 240px; /* Adjust this value based on where you want the text to appear */
-    left: 250px; /* Adjust this value to position the text to the right of the beam */
+    top: 240px;
+    left: 250px;
 }
 .css-text {
     color: #0A7CFF;
@@ -360,11 +360,11 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 280px; /* Adjust this value based on where you want the text to appear */
+    top: 280px;
     left: 50px;
-    transform: translateX(-50%); /* Center the text horizontally */
+    transform: translateX(-50%);
 }
 .css-beam {
     width: 132px;
@@ -373,8 +373,8 @@ body {
     border-radius: 42px;
     background: #0A7CFF;
     position: absolute;
-    top: 285px; /* Adjust this value based on where you want the beam to appear */
-    left: 100px; /* Adjust this value to position the beam to the right of the "HTML" text */
+    top: 285px;
+    left: 100px;
 }
 .css-percent {
     color: #0A7CFF;
@@ -383,10 +383,10 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 280px; /* Adjust this value based on where you want the text to appear */
-    left: 250px; /* Adjust this value to position the text to the right of the beam */
+    top: 280px;
+    left: 250px;
 }
 .design-box {
     width: 347px;
@@ -395,51 +395,33 @@ body {
     border-radius: 30px;
     background: #1E1E1E;
     position: absolute;
-    top: 2500px; /* Adjust this value based on where you want the box to appear */
-    left: 50%; /* Center the box horizontally */
-    transform: translateX(-50%); /* Shift the box left by half its width */
+    top: 2500px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 .figma-box img {
     width: 62px;
     height: 62px;
     flex-shrink: 0;
     position: absolute;
-    top: 50px; /* Adjust this value based on where you want the SVG to appear */
+    top: 50px;
     left: 50%;
-    transform: translateX(-50%); /* Center the SVG horizontally */
+    transform: translateX(-50%);
 }
 .figma-title {
     color: #FFF;
-    text-align: left; /* Align the text to the left */
+    text-align: left;
     font-family: Onest;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 100% */
+    line-height: 24px;
     position: absolute;
-    top: 130px; /* Adjust this value based on where you want the text to appear */
-    left: 35px; /* Adjust this value to align the text to the left */
-    width: 100%; /* Allow the text to expand to the full width of its container */
+    top: 130px;
+    left: 35px;
+    width: 100%;
 }
 
-.figma-text {
-    display: flex;
-    width: 240px;
-    height: 55px;
-    flex-direction: column;
-    justify-content: center;
-    flex-shrink: 0;
-    color: #0A7CFF;
-    font-family: Onest;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 150% */
-    position: absolute;
-    top: 160px; /* Adjust this value based on where you want the text to appear */
-    left: 35px; /* Adjust this value to align the text to the left */
-    text-align: left; /* Align the text to the left */
-}
 .figma-text {
     color: #0A7CFF;
     text-align: center;
@@ -447,11 +429,11 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 240px; /* Adjust this value based on where you want the text to appear */
-    left: 50px;
-    transform: translateX(-50%); /* Center the text horizontally */
+    top: 160px;
+    left: 110px;
+    transform: translateX(-50%);
 }
 .figma-beam {
     width: 132px;
@@ -460,8 +442,8 @@ body {
     border-radius: 42px;
     background: #0A7CFF;
     position: absolute;
-    top: 245px; /* Adjust this value based on where you want the beam to appear */
-    left: 100px; /* Adjust this value to position the beam to the right of the "HTML" text */
+    top: 245px;
+    left: 100px;
 }
 .figma-percent {
     color: #0A7CFF;
@@ -470,8 +452,8 @@ body {
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px; /* 150% */
+    line-height: 24px;
     position: absolute;
-    top: 240px; /* Adjust this value based on where you want the text to appear */
-    left: 250px; /* Adjust this value to position the text to the right of the beam */
+    top: 240px;
+    left: 250px;
 }
