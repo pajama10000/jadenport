@@ -119,76 +119,14 @@ body {
     font-weight: 500;
     line-height: normal;
     position: absolute;
-    top: 10px; /* Adjust this value as needed to position the text at the top of the box */
+    top: 20px; /* Adjust this value as needed to position the text at the top of the box */
     left: 20px; /* Adjust this value as needed to position the text at the left of the box */
 }
 .contact-svg {
-    position: relative; /* Change to relative to contain absolutely positioned children */
     width: 139px;
     height: 40px;
     flex-shrink: 0;
     position: absolute;
-    top: 70px; /* Adjust as needed to position the SVG under the text */
-    left: 20px; /* Adjust as needed to position the SVG at the left of the box */
+    top: 100px; /* Adjust this value as needed to position the SVG under the text */
+    left: 20px; /* Adjust this value as needed to position the SVG at the left of the box */
 }
-
-.thirty-plus {
-    color: #FFF;
-    text-align: center;
-    font-family: Onest;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: absolute;
-    bottom: -90px; /* Adjust as needed */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
-}
-
-.clients-satisfied {
-    color: #FFF;
-    text-align: center;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    position: absolute;
-    bottom: -140px; /* Adjust as needed */
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%);
-}
-.statistics {
-    display: flex;
-    justify-content: space-around; /* Distributes the items evenly */
-    position: relative;
-    height: 200px; /* Adjust as needed */
-}
-
-.statistic {
-    position: absolute;
-    bottom: 0;
-    width: 100px; /* Adjust as needed */
-    text-align: center;
-}
-
-.statistic .number {
-    color: #FFF;
-    font-family: Onest;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-.statistic .description {
-    color: #FFF;
-    font-family: Onest;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-
-
